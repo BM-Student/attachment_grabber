@@ -1,0 +1,20 @@
+Script
+- grab all emails from a certain time ago
+    . read from JSON file [Done]
+- skip over emails not mapped to anything (pos save unmapped somewhere) [Done]
+    . map subject, sender, contents combo to file_path [Done]
+    . read from JSON file [Done]
+- skip over emails already grabbed [Done]
+- save contents to folder based on mapping [Done]
+- generate new folders based on mapping if they don't exist
+- possibly sends out notices
+
+Config GUI
+- config mapping by writing to JSON
+    . Can delete mapped out file paths
+- config how far back the query should go
+- edit JSON mappings
+
+
+FLAGS
+di = date increment (sub folder for week of)
